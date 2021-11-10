@@ -88,10 +88,9 @@ while 1:
     avoid_golden_token()
     print(rot_y_s, dist)
     if dist <= d_th: #if the robot is close to the silver token, it moves the token
-		print("Found it!")
-		move_token()
-    if -3*a_th <= rot_y_s <= 3*a_th:
-		#if the robot is well aligned with the token, it goes forward
+	print("Found it!")
+	move_token()
+    if -3*a_th <= rot_y_s <= 3*a_th: #if the robot is well aligned with the token, it goes forward
         print("Go ahead")
     elif -90 < rot_y_s < -a_th: #if the silver token is to the left of the robot, the robot turns left
         print("Left")
