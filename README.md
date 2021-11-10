@@ -25,10 +25,10 @@ On Ubuntu, this can be accomplished by:
 ## Exercise
 -----------------------------
 
-To run the script in the simulator, use `run.py`, passing it the file names.
-	``` shell
-	$ python run.py assignment.py
-	```
+To run the script in the simulator, use `run.py`, passing it the file names:
+``` 
+$ python run.py assignment.py
+```
 
 Robot API
 ---------
