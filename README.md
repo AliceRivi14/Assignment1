@@ -26,7 +26,7 @@ On Ubuntu, this can be accomplished by:
 -----------------------------
 
 To run the script in the simulator, use `run.py`, passing it the file names.
-	$ python run.py assignment.py
+	```$ python run.py assignment.py```
 
 Robot API
 ---------
