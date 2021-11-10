@@ -92,7 +92,7 @@ for m in markers:
 
 
 ### Pseudocode ###
-
+```pseudocode
 function drive(speed, seconds):
 	set a linear velocity to move the robot forward
 
@@ -130,12 +130,13 @@ while 1:
 		turn the robot on the left
 	else if the silver token is on the right of the robot:
 		turn the robot on the right
+```
 		
 ### Possible improvements ###
 
 To improve the execution of the circuit by the robot you could use silver tokens marked each with a different numerical code so that they are followed by the robot from the first to the last.
 This will prevent the robot from retreating to an already outdated token.
-You could use a `for loop` for every time you see a silver token, you move it and then you continue your path looking for the next
+You could use a `for loop` for every time you see a silver token, you move it and then you continue your path looking for the next.
 
 ```pseudocode
 for each silver token:
