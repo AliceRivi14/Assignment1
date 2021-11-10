@@ -92,6 +92,7 @@ for m in markers:
 
 
 ### Pseudocode ###
+
 ```pseudocode
 function drive(speed, seconds):
 	set a linear velocity to move the robot forward
@@ -100,12 +101,12 @@ function turn(speed, seconds):
 	set an angular velocity to turn the robot on the left or on the right
 
 function move_token():
-	the robot graps the token, moves the token behind him, releases it and comes 	back to the initial position
+	the robot graps the token, moves the token behind him, releases it and comes back to the initial position
 
 function find_silver_token():
 	for each tocken:
 		if token is silver:
-			consider the angle and the distance between the robot and the 				silver token
+			consider the angle and the distance between the robot and the silver token
 		return the distance and the angle
 
 function avoid_golden_token():
@@ -124,7 +125,7 @@ while 1:
 	avoid_golden_token()
 	if the robot is near the silver token:
 		move_token()
-	elseif the silver token is in front of the robot:
+	if the silver token is in front of the robot:
 		go the robot forward
 	else if the silver token is on the left of the robot:
 		turn the robot on the left
