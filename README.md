@@ -115,9 +115,9 @@ function avoid_golden_token():
 	for each token:
 		if token is gold:
 			consider the angle between the robot and the golden token
-			if the golden token is on the right and in front of the robot:
+			if the golden token is to the right of the robot:
 				turn the robot on the left 
-			else if the golden token is on the left and in front of the robot:
+			else if the golden token is to the left of the robot:
 				turn the robot on the right
 
 
